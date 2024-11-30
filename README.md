@@ -30,7 +30,7 @@ This is a simple note-taking app that lets users upload markdown files, check gr
 2. Install dependencies:
 
    ```bash
-   cd note-taking-app
+   
    npm install
    ```
 
@@ -40,7 +40,7 @@ This is a simple note-taking app that lets users upload markdown files, check gr
 
 4. Run the server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Endpoints 📡
