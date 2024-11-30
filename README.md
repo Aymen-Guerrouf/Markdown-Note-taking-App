@@ -30,7 +30,7 @@ This is a simple note-taking app that lets users upload markdown files, check gr
 2. Install dependencies:
 
    ```bash
-   cd note-taking-app
+   
    npm install
    ```
 
@@ -40,7 +40,7 @@ This is a simple note-taking app that lets users upload markdown files, check gr
 
 4. Run the server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Endpoints 📡
@@ -79,7 +79,8 @@ Render a markdown note as HTML.
 - **Mongoose**: MongoDB object modeling for Node.js.
 - **Marked**: Markdown parser to render the markdown as HTML.
 - **LanguageTool API**: For grammar checking.
-
+## Project URL
+<href>https://roadmap.sh/projects/markdown-note-taking-app </href>
 ## License 🛡️
 
 This project is licensed under the MIT License.
