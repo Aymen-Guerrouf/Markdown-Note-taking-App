@@ -79,7 +79,8 @@ Render a markdown note as HTML.
 - **Mongoose**: MongoDB object modeling for Node.js.
 - **Marked**: Markdown parser to render the markdown as HTML.
 - **LanguageTool API**: For grammar checking.
-
+## Project URL
+<href>https://roadmap.sh/projects/markdown-note-taking-app </href>
 ## License 🛡️
 
 This project is licensed under the MIT License.
