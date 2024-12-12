@@ -47,3 +47,19 @@ exports.renderHtml = asyncHandler(async (req, res, next) => {
   res.setHeader("Content-Type", "text/html");
   res.status(200).send(html);
 });
+
+//@desc delete a note
+// @route DELETE /api/notes/:id
+// @access public
+exports.deleteNote = asyncHandler(async (req, res, next) => {
+  const note = await Note.findByIdAndDelete(req.params.id);
+
+  const filePath = note.path;
+
+  fs.unlink(filePath, (err) => {
+    if (err) {
+      return new ErrorResponse("Error deleting file", 500);
+    }
+  });
+  res.status(200).json({ success: true, data: {} });
+});
